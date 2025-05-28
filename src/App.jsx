@@ -35,10 +35,11 @@ function App() {
   return (
     // On mobile screens the background is black.
     // On medium screens and above the background image is applied.
-    <div className="min-h-screen flex items-center justify-center 
+    <div className="fixed inset-0 flex items-center justify-center 
                 bg-black md:bg-[url('https://www.solutions4it.co.uk/wp-content/uploads/2023/08/password-attacks.jpg')] 
                 bg-cover bg-center text-orange-500 font-WDXL 
-                overflow-hidden sm:overflow-hidden">
+                overflow-hidden">
+
 
       <div className="w-full max-w-3xl mx-auto shadow-lg rounded-lg px-4 py-3 my-8 bg-[#02112b] text-orange-500 h-80 opacity-90">
         <h1 className="text-white text-2xl text-center my-3">Password Generator</h1>
